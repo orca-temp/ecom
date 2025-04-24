@@ -1,0 +1,27 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>ecom</servlet-name>
+  	<display-name>ecom</display-name>
+  	<description></description>
+  	<servlet-class>ecom</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ecomservlet</servlet-name>
+  	<display-name>ecomservlet</display-name>
+  	<description></description>
+  	<servlet-class>ecomservlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>ecom</servlet-name>
+  	<url-pattern>/ecom</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ecomservlet</servlet-name>
+  	<url-pattern>/ecomservlet</url-pattern>
+  </servlet-mapping>
+</web-app>
